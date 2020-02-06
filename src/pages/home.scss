@@ -1,0 +1,220 @@
+@import "~normalize.css/normalize.css";
+@import "../css/global.scss";
+
+.carousel{
+  .control-dots{
+    padding-bottom: 10px;
+    
+    .dot{
+      opacity: 1;
+      background-color:#fff;
+      transform: scale(1.7);
+      outline: none;
+      border:1px solid #fff;
+  
+      &.selected{
+        background:#b81939
+      }
+    }
+  }
+}
+.section-container{
+  padding: 3rem 0;
+
+  &:nth-of-type(even){
+    background: #f7f7f7;
+  }
+  &.without-dark-bg{
+    background-color: transparent;
+  }
+
+  h3{
+    font-size: 24px;
+    color: #555;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    margin-bottom: 3rem;
+
+    >span{
+      position: relative;
+
+      &:not(.without-underline){
+        &::before{
+          left: 50%;
+          margin: 0 0 0 -40px;
+          bottom: 0;
+          content: '';
+          height: 3px;
+          width: 80px;
+          background: #d90845;
+          border-radius: 3px;
+          position: absolute;
+          margin-bottom: -1.5rem;
+        }
+      }
+    }
+  }
+  .section-content-container{
+    display:flex;
+    max-width: 1140px;
+    margin:0 auto;
+    flex-wrap: wrap;
+
+    .section-content-list{
+      text-align: center;
+      width:calc(100%/4 - 25px);
+      margin-left:calc(25px * 4 / 3);
+
+      &:first-of-type{
+        margin-left:0;
+      }
+
+      &.list-style-card{
+        border:1px solid #ddd;
+        width:calc(100%/3 - 25px - 2px);
+        margin-left:calc(25px * 3 / 2);
+
+        text-align: left;
+        color: rgba(0, 0, 0, 0.5);
+
+        &:first-of-type{
+          margin-left:0;
+        }
+        .imgcontainer-sectionlist{
+          img{
+            max-width: 100%;
+          }
+        }
+        h4{
+          font-size: 18px;
+          color: #555;
+          margin: 5px 0;
+          padding:0 15px;
+        }
+        .course-date{
+          padding:5px 15px;
+
+          .remind{
+            background: #ff9;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin-right: 5px;
+            font-size: 80%;
+            font-weight: 400;
+          }
+        }
+        p{
+          padding:0 15px;
+          font-size: 13px;
+          
+          &:not(.note){
+            font-size: 14px;
+          }
+          &.restrict-height{
+            height: 100px;
+            overflow: hidden;
+            line-height: 1.1rem;
+          }
+        }
+        
+        +.btngroup{
+          width:100%;
+          text-align: center;
+          margin:3rem 0 ;
+
+          >a{
+            button{
+              padding: 15px 50px;
+              font-size: 18px;
+              display: inline-block;
+              background: #d90845;
+              color: #fff;
+              border: 0;
+              border-radius: 5px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      &.list-style-carousel{
+        overflow: hidden;
+        width: 60%;
+        margin:0 auto;
+
+        .imgcontainer-sectionlist{
+          width: 20%;
+          float: left;
+          margin-top:20px;
+
+          img{
+            width:100px;
+            border-radius: 50%;
+            overflow: hidden;
+          }
+        }
+        .carousel-introduction-container{
+          width: 80%;
+          float: left;
+          text-align: left;
+          padding: 0 25px;
+          
+          .author{
+            display: block;
+            font-size: 1.5rem;
+            color: #d90845;
+          }
+          span{
+            color: rgba(0, 0, 0, 0.5);
+          }
+        }
+      }
+      h3{
+        margin:0;
+        padding:0;
+      }
+      
+    }
+    .more-link{
+      margin:10px 0;
+      width: 100%;
+      text-align: right;
+    }
+    .carousel{
+      &.carousel-slider{
+        height:235px;
+      }
+      .control-dots{
+        .dot{
+          opacity: 1;
+          background-color: rgba(85,85,85,0.3);
+          transform: scale(1);
+          outline: none;
+          border:0;
+          box-shadow: none;
+          margin:0 5px;
+
+          &.selected{
+            background:#b81939
+          }
+        }
+      }
+      .slide{
+        background-color: transparent;
+      }
+    }
+    >p{
+      margin:0 auto;
+    }
+    .social-media{
+      width:100%;
+      margin:30px 0;
+      text-align: center;
+
+      a{
+        display: inline-block;
+        margin:0 15px;
+      }
+    }
+  }
+}
+

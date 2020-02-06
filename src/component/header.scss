@@ -1,0 +1,79 @@
+@keyframes wobble-ver-left{
+    0%, 
+    100%{
+        -webkit-transform:translateY(0) rotate(0);
+        transform:translateY(0) rotate(0);
+        -webkit-transform-origin:50% 50%;
+        transform-origin:50% 50%
+    }
+    15%{
+        -webkit-transform:translateY(-6px) rotate(-1deg);
+        transform:translateY(-6px) 
+        rotate(-1deg)
+    }
+    30%{
+        -webkit-transform:translateY(3.75px) rotate(1deg);
+        transform:translateY(3.75px) rotate(1deg)
+    }
+    45%{
+        -webkit-transform:translateY(-6px) rotate(-0.8deg);
+        transform:translateY(-6px) rotate(-0.8deg)
+    }
+    60%{
+        -webkit-transform:translateY(2px) rotate(0.6deg);
+        transform:translateY(2px) rotate(0.6deg)
+    }
+    75%{
+        -webkit-transform:translateY(-1px) rotate(-0.3deg);
+        transform:translateY(-1px) rotate(-0.3deg)
+    }
+}
+.componentcontainer-header{
+    display:flex;
+    align-items: center;
+    padding:20px;
+    border-bottom: 0.0625rem solid #eee;
+    box-shadow: 0 0 0.3125rem #b0a0ad;
+    
+    .imgcontainer-logo{
+        width:30%;
+    }
+    .navbar{
+        display:flex;
+        list-style-type: none;
+        width:70%;
+        margin: 0;
+        justify-content: flex-end;
+
+        li{
+            padding:0 10px;
+            color: rgba(0,0,0,.5);
+            cursor: pointer;
+
+            &:hover{
+                color:#d90845;
+            }
+            a{
+                &.active{
+                    color:#d90845;
+                }
+                svg{
+                    padding:0 5px;
+                }
+                .animate-sharp-red{
+                    display: inline-block;
+                    background: #cd3151;
+                    border-radius: 4px;
+                    padding: 2px 5px 1px;
+                    margin-left: 5px;
+                    word-break: keep-all;
+                    font-size: 0.85em;
+                    font-weight: 400;
+                    color: #fff;
+                    -webkit-animation: wobble-ver-left 1.5s infinite both;
+                    animation: wobble-ver-left 1.5s infinite both;
+                }
+            }
+        }
+    }
+}

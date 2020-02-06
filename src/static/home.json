@@ -1,0 +1,287 @@
+{
+    "header":{
+        "imgcontainer":{
+            "url":"/",
+            "src":"https://5xruby.tw/assets/images/navbar/logo-c473f739.png"
+        },
+        "navbar":[
+            {
+                "url":"/iamcoding",
+                "title":"線上課程",
+                "fontIcon":"far fa-gem",
+                "breadcrumbPath":"首頁 > 線上課程",
+                "headerDescription":"為你自己把程式學好"
+            },
+            {
+                "url":"/astro_camp",
+                "title":"ASTRO Camp",
+                "fontIcon":"far fa-compass fa-lg",
+                "breadcrumbPath":"首頁 > ASTRO Camp",
+                "headerDescription":"轉職最佳選擇，就是全端工程師",
+                "remind":"報名優惠中"
+            },
+            {
+                "url":"/shortcourse",
+                "title":"短期課程",
+                "breadcrumbPath":"首頁 > 短期課程",
+                "headerDescription":"前端網頁設計及後端課程"
+            },
+            {
+                "url":"/projectdevelop",
+                "title":"專案開發",
+                "breadcrumbPath":"首頁 > 專案開發",
+                "headerDescription":"五倍紅寶石你最佳的技術夥伴"
+            },
+            {
+                "url":"/companytraining",
+                "title":"企業代訓",
+                "breadcrumbPath":"首頁 > 企業代訓",
+                "headerDescription":"企業內訓 現有人力=即戰力"
+            },
+            {
+                "url":"/spacelease",
+                "title":"空間租借",
+                "breadcrumbPath":"首頁 > 空間租借",
+                "headerDescription":"五倍紅寶石 台北出礦坑"
+            },
+            {
+                "url":"/latestnews",
+                "title":" 最新消息",
+                "breadcrumbPath":"首頁 > 最新消息",
+                "headerDescription":"最新消息"
+            }
+        ]
+    },
+    "maincontent":{
+        "carousel":[
+            "https://5xruby.tw/assets/images/index/banner_astro-a839be5c.jpg",
+            "https://5xruby.tw/assets/images/index/banner_imcodingit-53a9a811.jpg",
+            "https://5xruby.tw/assets/images/index/banner_mokumokukai-f9ec6b54.jpg",
+            "https://5xruby.tw/assets/images/index/banner_5xruby-3d66d288.jpg"
+        ],
+        "section":{
+            "about5xRuby":{
+                "title":"關於五倍紅寶石 About 5xRuby",
+                "listData":[
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/index/feature-list/feature-list-img1-0d20ab19.png",
+                        "mainTitle":"網頁設計前",
+                        "secondaryTitle":"前後端課程教學",
+                        "description":"帶你掌握程式技能轉職工程師，程式課程從入門到進階讓你快速上手，學員好評推薦轉職課程!"
+                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/index/feature-list/feature-list-img2-26e4ca80.png",
+                        "mainTitle":"頂尖技術",
+                        "secondaryTitle":"網頁製作、專案開發",
+                        "description":"網站開發到行動裝置 App 工程服務、系統設計開發甚至系統架設，提供專業的建議與頂尖的技術。"
+                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/index/feature-list/feature-list-img3-d0a4089e.png",
+                        "mainTitle":"資訊軟體開發",
+                        "secondaryTitle":"技術顧問",
+                        "description":"協助您將現有人力快速打造為 Ruby/Rails 團隊，無須經歷繁瑣的人才招募就有即戰力！"
+                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/index/feature-list/feature-list-img4-13321bf0.png",
+                        "mainTitle":"前後端工程師",
+                        "secondaryTitle":"社群經營",
+                        "description":"Ruby 社群經營、舉辦各類活動，促進 Ruby 社群發展，歡迎前後端工程師分享交流。"
+                    }
+                ]
+            },
+            "popularCourses":{
+                "title":"熱門網頁設計課程推薦",
+                "listData":[
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/talks/cover/ruby-on-rails-7c597107.jpg",
+                        "mainTitle":"Ruby on Rails 實戰課程 - 假日班",
+                        "date":"2019-12-07",
+                        "remind":"已確定開課",
+                        "description":"後臺開發不是夢！實戰程度百分百的 Ruby & Rails 課程 。具備高度生產力，簡潔、有效率的編寫，即便是初學者也能快速上手的  Ruby 程式語言，搭配 Rails   框架，短時間內部署自己的專案。從電商網站到金流平台串接， 5 天課程帶您走過專案流程，熟悉整體架構。",
+                        "note":"講者： 高見龍 (Eddie Kao)  | 時數： 30 小時"
+                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/talks/cover/functional-09be0f61.jpg",
+                        "mainTitle":"工作上用得到的函數式程式設計：從觀念到實務 - 假日班",
+                        "date":"2020-02-22",
+                        "description":"隨著多核心電腦成為主流、分散式系統架構也成為顯學，函數式程式設計的重要性也與日俱增。跟物件導向程式設計相比，函數式程式設計著重於用更簡潔的方向表達程式碼真正的意圖。因此當學會用與物件導向程式程計不同的角度來寫程式後，可以讓你在切換不同的程式語言時依然能游刃有餘。這門課將會透過一門好入手的非純函數式語言 Elixir 開始，教大家最重要的函數式程式設計觀念。接著介紹如何在 Ruby、JavaScript (也許還有一點 C#) 上使用函數式程式設計的技巧。讓你寫出精簡、好除錯的厲害程式碼！",
+                        "note":"講者： 蘇泰安 (Taian Su)  | 時數： 9 小時"
+                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/talks/cover/rwd-99b9e59b.jpg",
+                        "mainTitle":"客製化進階 RWD 手機版網頁設計班 - 假日班",
+                        "date":"2020-03-08",
+                        "description":"你還在困擾網頁該怎麼做 RWD 嗎？講師手把手教學，帶你快速上手 RWD ，不僅教你技術及方法，還要建立你正確的網頁觀念，融會貫通後你將大幅提高自學能力，降低卡關浪費時間查找的困擾！",
+                        "note":"講者： 李建杭 (Amos Lee)  | 時數： 24 小時"
+                    }
+                ],
+                "linkButton":[
+                   {
+                       "url":"https://5xruby.tw/talks/",
+                       "value":"看更多網頁課程"
+                   }
+                ]
+            },
+            "onlineCourses":{
+                "title":"網頁課程推薦",
+                "listData":[
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/testimoney/avatar/victor-3ec52916.jpg",
+                        "feedback":"Programmer 最有價值的是經驗值，「五倍紅寶石」的導師都是社群內數一數二的資深 Rubyist，由他們來帶領學員一探 Ruby 世界的神奇之處，實在是最佳選擇。",
+                        "author":"Victor Lam",
+                        "profession":"連續創業家，自由工作者"
+                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/testimoney/avatar/jason-e7e95cad.jpg",
+                        "feedback":"Eddie and his team are of the most dedicated Ruby evangelists I have ever come across. With their passion and professionalism, Ruby learners will leapfrog in their progress.",
+                        "author":"Jason Hs",
+                        "profession":"founder of The Big Questions & TEDxTaipei"                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/testimoney/avatar/felix-d1d4db69.jpg",
+                        "feedback":"還在尋找專業的 Ruby/Rails 師資嗎？別懷疑了，台灣最頂尖的 Rubyist 盡在「五倍紅寶石」！",
+                        "author":"Felix Lin",
+                        "profession":"dappei.com 「搭配」網站創辦人"                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/testimoney/avatar/hana-4ae009cb.jpg",
+                        "feedback":"慕凡和龍哥是業界數一數二的 Ruby 大師，他們不光是底子深厚，也很懂得引導、訓練學習路上遇到挫折的 Ruby/Rails 學子。很慶幸有他們的協助讓我進入紅寶石的美妙世界。",
+                        "author":"Hana Chang",
+                        "profession":"Co-Founder and CEO of BountyHunter"                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/testimoney/avatar/johnsie-7322ca81.jpg",
+                        "feedback":"選擇程式語言很重要，但選擇優秀的導師更重要！能跟擁有多年 Ruby/Rails 實戰經驗、活躍於社群的頂尖 Rubyist 學習，將一窺程式開發殿堂之藝術！我堅信：專業事讓專業的來，而專業的「五倍紅寶石」是寶藏，就等大家來挖掘。",
+                        "author":"John Sie",
+                        "profession":"Accuvally Inc.共同創辦人暨營運長"                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/testimoney/avatar/benlin-54e253f4.jpg",
+                        "feedback":"「五倍紅寶石」的導師們都是業界經驗豐富的實戰高手，提供的課程及咨詢絕對能讓你大幅省去自行摸索的時間。",
+                        "author":"Ben Li",
+                        "profession":"連續創業家，自由工作者"
+                    }
+                ]
+            },
+            "portfolio":{
+                "title":"案例作品 Showcase",
+                "listData":[
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/showcases/space_next_door-4dfdfeb6.png",
+                        "mainTitle":"SpaceNextDoor",
+                        "description":"Space Next Door is inspired by the sharing economy in which we hope to encourage people to put up their unused space so that users looking for personal or business storage space have better options, closer to where they need it. We are striving to build a trusted community marketplace for you to list, discover and book the nearest and best space at affordable prices."
+                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/showcases/shopmatic_go-f7b86d46.png",
+                        "mainTitle":"Shopmatic Go app",
+                        "description":"Shopmatic Go is an exciting online platform where you can create a unique and comprehensive online store for your business, in a matter of minutes."
+                    },
+                    {
+                        "imgSrc":"https://5xruby.tw/assets/images/showcases/shopmatic-92ff9dcf.jpg",
+                        "mainTitle":"跨境電子商務 Shopmatic",
+                        "description":"Shopmatic manages the entire ecosystem for anyone wanting to sell online. We go the extra mile to ensure that we help you in every step of the process to grow your business online - from developing your own unique webstore, to listing you on marketplaces and social channels, to providing you insights on how to sell online."
+                    }
+                ],
+                "moreLink":{
+                    "url":"https://5xruby.tw/showcases/",
+                    "content":"...更多案例"
+                }
+            },
+            "knowUs":{
+                "title":"想更瞭解我們嗎？",
+                "description":"您可以看看*常見問題~https://5xruby.tw/faq/*或者直接*線上洽詢~https://5xruby.tw/contacts/*，會有親切的客服人員回答您的問題，也可以透過社群網站隨時關注我們的動態。",
+                "socialMedia":[
+                    {
+                        "url":"https://www.facebook.com/5xruby",
+                        "imgSrc":"https://5xruby.tw/assets/images/index/icon/icon-fb-2f24e7a0.png"
+                    },
+                    {
+                        "url":"https://twitter.com/5xruby",
+                        "imgSrc":"https://5xruby.tw/assets/images/index/icon/icon-twitter-89f8d087.png"
+                    }
+                ]
+            }
+        }
+    },
+    "footer":{
+        "mediaReport":{
+            "url":"https://5xruby.tw/press/",
+            "imgSrc":"https://5xruby.tw/assets/images/footer/press-img-3161693e.png"
+        },
+        "cakeResume":{
+            "url":"https://www.cakeresume.com/jobs",
+            "imgSrc":"https://5xruby.tw/assets/images/footer/cakeresume-8938f367.png",
+            "description":"找工作"
+        },
+        "menu":[
+            {
+                "url":"https://5xruby.tw/about/",
+                "title":"關於五倍紅寶石"
+            },
+            {
+                "url":"https://5xruby.tw/press/",
+                "title":"媒體報導"
+            },
+            {
+                "url":"https://5xruby.tw/members/",
+                "title":"團隊成員"
+            },
+            {
+                "url":"/contacts",
+                "title":"聯絡詢價",
+                "breadcrumbPath":"首頁 > 聯絡我們",
+                "headerDescription":"有任何問題嗎？馬上聯絡我們！"
+            },
+            {
+                "url":"https://5xruby.tw/faq/",
+                "title":"常見問題"
+            },
+            {
+                "url":"https://5xruby.tw/jobs/",
+                "title":"工作機會"
+            },
+            {
+                "url":"https://github.com/5xRuby",
+                "title":"開源專案"
+            },
+            {
+                "url":"https://5xruby.tw/privacy-policy/",
+                "title":"隱私權條款"
+            },
+            {
+                "url":"https://5xruby.tw/terms-of-service/",
+                "title":"服務條款"
+            }
+        ],
+        "contactInfo":{
+            "phone":"02-2331-5247",
+            "workTime":"Mon - Fri / 09:30 - 22:00",
+            "socialMedia":[
+                {
+                    "url":"https://www.facebook.com/5xruby",
+                    "fontIcon":"fab fa-facebook-f"
+                },
+                {
+                    "url":"https://twitter.com/5xruby",
+                    "fontIcon":"fab fa-twitter"
+                },
+                {
+                    "url":"https://github.com/5xruby",
+                    "fontIcon":"fab fa-github"
+                }
+            ]
+        },
+        "mailAddress":{
+            "title":"有任何問題？",
+            "mail":{
+                "url":"mailto:hi@5xruby.tw",
+                "content":"hi@5xruby.tw"
+            },
+            "address":{
+                "title":"地址： ",
+                "url":"https://goo.gl/lz5v93",
+                "content":"10046 台北市中正區衡陽路 7 號 5 樓"
+            }
+        },
+        "copyright":{
+            "description":"© 2014 - 2020 五倍紅寶石股份有限公司 (5XRUBY CO., LTD)",
+            "case":"台北市短期補習班立案 第 7594 號"
+        }
+    }
+}
